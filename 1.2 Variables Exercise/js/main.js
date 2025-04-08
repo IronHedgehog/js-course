@@ -9,6 +9,7 @@
 // Do NOT change any of the existing code.
 // You are NOT allowed to type any numbers.
 // You should NOT redeclare the variables a and b.
+
 // Hint: The solution is just 3 lines of code.
 
 function test() {
