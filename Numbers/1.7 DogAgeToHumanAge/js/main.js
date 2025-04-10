@@ -1,4 +1,4 @@
-const dogAge = 3.5;
+const dogAge = prompt("How old you dog?");
 
 const formulaToConvertToHumanAge = (dogAge - 2) * 4 + 21;
 
