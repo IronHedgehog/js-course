@@ -1,3 +1,5 @@
-const dogAge = (3.6 - 2) * 4 + 21;
+const dogAge = 3.5;
 
-alert(dogAge);
+const formulaToConvertToHumanAge = (dogAge - 2) * 4 + 21;
+
+alert(formulaToConvertToHumanAge);
