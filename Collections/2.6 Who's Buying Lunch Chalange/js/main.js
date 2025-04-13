@@ -1,20 +1,8 @@
-const array = [];
-let counter = 0;
+const guests = ["Angela", "Ben", "Jenny", "Michael", "Chloe"];
 
-function fizBuzGame() {
-  counter++;
+function whosPaying(guests) {
+  const random = Math.floor(Math.random() * guests.length);
+  return guests[random] + " is going to buy lunch today!";
+}
 
-  if (counter % 3 === 0 && counter % 5 === 0) {
-    array.push("FizzBuzz");
-  } else if (counter % 5 === 0) {
-    array.push("Buzz");
-  } else if (counter % 3 === 0) {
-    array.push("Fizz");
-  } else {
-    array.push(counter);
-  }
-}
-while (counter < 100) {
-  fizBuzGame();
-  console.log(array);
-}
+alert(whosPaying(guests));
