@@ -9,3 +9,7 @@ link.style.color = "red";
 const button = document.querySelector("button");
 
 button.style.backgroundColor = "yellow";
+
+const heading = document.querySelector("h1");
+
+heading.classList.add("huge");
