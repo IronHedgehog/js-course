@@ -1,0 +1,60 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  background-color: #393e46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ecca3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #eeeeee;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+}
+
+button {
+  background-color: red; /* Колір фону (темно-сірий) */
+  color: #4ecca3; /* Колір тексту співпадає з фоном */
+  border: none; /* Прибираємо облямівку */
+  padding: 10px 20px; /* Додаємо трохи внутрішнього відступу для клікабельності */
+  font-size: 16px; /* Задаємо розмір шрифту (можете змінити) */
+  cursor: pointer; /* Змінюємо курсор при наведенні */
+  opacity: 0.7; /* Трохи зменшуємо видимість (за бажанням) */
+  transition: opacity 0.3s ease; /* Додаємо плавний перехід для ефекту при наведенні */
+}
+
+button:hover {
+  opacity: 1; /* Робимо кнопку більш помітною при наведенні */
+  color: #ffffff; /* Змінюємо колір тексту при наведенні (наприклад, на білий) */
+}
+
+button:focus {
+  outline: none; /* Прибираємо стандартну облямівку при фокусі */
+  /* Можете додати свій стиль для фокусу, якщо потрібно */
+}
