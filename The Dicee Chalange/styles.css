@@ -39,22 +39,24 @@ footer {
 }
 
 button {
-  background-color: red; /* Колір фону (темно-сірий) */
-  color: #4ecca3; /* Колір тексту співпадає з фоном */
-  border: none; /* Прибираємо облямівку */
-  padding: 10px 20px; /* Додаємо трохи внутрішнього відступу для клікабельності */
-  font-size: 16px; /* Задаємо розмір шрифту (можете змінити) */
-  cursor: pointer; /* Змінюємо курсор при наведенні */
-  opacity: 0.7; /* Трохи зменшуємо видимість (за бажанням) */
-  transition: opacity 0.3s ease; /* Додаємо плавний перехід для ефекту при наведенні */
+  width: 200px;
+  height: 70px;
+  background-color: red;
+  color: #4ecca3;
+  border: none;
+  padding: 10px 20px;
+  font-family: "Indie Flower", cursive;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
 }
 
 button:hover {
-  opacity: 1; /* Робимо кнопку більш помітною при наведенні */
-  color: #ffffff; /* Змінюємо колір тексту при наведенні (наприклад, на білий) */
+  opacity: 1;
+  color: #ffffff;
 }
 
 button:focus {
-  outline: none; /* Прибираємо стандартну облямівку при фокусі */
-  /* Можете додати свій стиль для фокусу, якщо потрібно */
+  outline: none;
 }
